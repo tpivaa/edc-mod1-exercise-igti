@@ -9,7 +9,7 @@ jobs:
     name: Test infra on PR
     runs-on: ubuntu-latest
 
-    setps: 
+    steps: 
     - uses: actions/checkout@v2
 
     - name: Set up Python 3.8
