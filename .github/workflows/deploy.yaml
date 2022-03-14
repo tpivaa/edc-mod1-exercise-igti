@@ -9,6 +9,10 @@ jobs:
     name: Deploy to Datalake
     runs-on: ubuntu-latest
 
+    permissions:
+      id-token: write
+      contents: read
+
     steps: 
     - uses: actions/checkout@v2
 
