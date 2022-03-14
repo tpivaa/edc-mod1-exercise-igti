@@ -2,11 +2,7 @@ name: Test on PR
 
 on:
   pull_request:
-    branches: [master]
-
-permissions:
-      id-token: write
-      contents: read    
+    branches: [master]  
 
 jobs:
   test:
